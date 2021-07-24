@@ -1,0 +1,264 @@
+.title , h1 {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background-color: lightseagreen;
+    line-height: 100px;
+    margin:0px;
+}
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#canvas{
+
+	margin-left:30px;
+	margin-top:10px;
+    
+}
+
+#buttons button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color:white;
+    cursor: pointer;
+    outline: none;
+}
+.top {
+    display: flex;
+    
+           
+}
+.stopwatch {
+    margin-left: 100px;
+    margin-top: -300px;
+    justify-content: right;
+    
+}
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    margin: 100px;
+    transform: translate(-50%, -55%);
+    color: black;
+}
+#buttons {
+    position: absolute;
+    margin: 80px;
+    padding-top: 150px;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
+
+
+/*.container{
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,-50%);
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-family: 'Nunito',sans-serif;
+    margin-left:560px;
+    margin-top: 100px;
+    
+    
+   
+}
+
+
+
+
+textarea {
+  display: block;
+  border-radius: 0.4rem;
+  width: 395px;
+}
+
+textarea,
+form select {
+  background: #fff;
+  border: 1px solid #520099;
+}
+
+form select, 
+form button {
+  display: inline-block;
+  margin: 2rem 1rem 0 0;
+  height: 2rem;
+}
+
+#formAddButton {
+  width: 7rem;
+  background-color: #8902FF;
+  color: #fff;
+  border-radius: 0.4rem;
+  border: 0;
+  transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+}
+
+#formAddButton:hover {
+  cursor: pointer;
+  background-color: #e600e6;
+}
+
+
+ Note Styles 
+#notes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.note {
+  width: 400px;
+  height: 20rem;
+  font-size: 1.4rem;
+  background: #fff;
+  border-radius: 0.4rem;
+  padding: 1.2rem 1.6rem;
+  margin: 2.4rem 2.4rem 0 0;
+  box-shadow: 0 0.9rem 1.2rem rgba(0,0,0, 0.1);
+  position: relative;
+}
+
+.note-text {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.note::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.8rem;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.note.red::after {
+  background-color: lightcoral;
+}
+
+.note.blue::after {
+  background-color: lightskyblue;
+}
+.note.green::after {
+  background-color: lightgreen;
+}
+.note.yellow::after {
+  background-color: gold;
+}
+
+.note span {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 0.2rem;
+  right: 0.2rem;
+  border-radius: 0.4rem;
+  color: #999;
+  text-align: center;
+}
+
+.note span:hover {
+  color: #333;
+  background: #f5f5f5;
+  cursor: pointer;
+}*/
+
+
+.showSlide {  
+  display: none  
+}  
+  .showSlide img {  
+      width: 100%;  
+  }  
+.slidercontainer {  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
+}  
+.left, .right {  
+  cursor: pointer;  
+  position: absolute;  
+  top: 50%;  
+  width: auto;  
+  padding: 16px;  
+  margin-top: -22px;  
+  color: white;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+  border-radius: 0 3px 3px 0;  
+}  
+.right {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+}  
+  .left:hover, .right:hover {  
+      background-color: rgba(115, 115, 115, 0.8);  
+  }  
+.content {  
+  color: #eff5d4;  
+  font-size: 30px;  
+  padding: 8px 12px;  
+  position: absolute;  
+  top: 10px;  
+  width: 100%;  
+  text-align: center;  
+}  
+.active {  
+  background-color: #717171;  
+}  
+/* Fading animation */  
+.fade {  
+  -webkit-animation-name: fade;  
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+
+@keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+
+.size {
+  padding-left: 200px;
+  padding-top: 50px;
+}
