@@ -7,6 +7,7 @@
     background-color: lightseagreen;
     line-height: 100px;
     margin:0px;
+    border-radius: 50px;
 }
 body {
     background-image: url(bg.jpg);
